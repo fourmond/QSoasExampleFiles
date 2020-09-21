@@ -1,0 +1,67 @@
+# The following information are comments, but Soas may make use of those if they are present
+# Fit used: lorentz_plus_baseline (a*x+b + y1 with y1: lorentzian (4 species, amplitude))
+# Buffer #0 : file5.txt
+# Buffer #1 : file4.txt
+x_1_f#1	1355	!	1
+x_2_f#1	1362	!	1
+x_3_f#1	1372	!	1
+x_4_f#1	1377	!	1
+buffer_weight[#0]	1
+a[#0]		0	!	1
+b[#0]		0.7	!	1
+Y0_f#1[#0]		646.487	!	1
+A_1_f#1[#0]		651.683	!	1
+gamma_1_f#1[#0]		8.11906	!	1
+A_2_f#1[#0]		651.683	!	1
+gamma_2_f#1[#0]		8.11906	!	1
+A_3_f#1[#0]		651.683	!	1
+gamma_3_f#1[#0]		8.11906	!	1
+A_4_f#1[#0]		651.683	!	1
+gamma_4_f#1[#0]		8.11906	!	1
+buffer_weight[#1]	1
+a[#1]		0	!	1
+b[#1]		0.5	!	1
+Y0_f#1[#1]		487.959	!	1
+A_1_f#1[#1]		459.541	!	1
+gamma_1_f#1[#1]		8.13776	!	1
+A_2_f#1[#1]		459.541	!	1
+gamma_2_f#1[#1]		8.13776	!	1
+A_3_f#1[#1]		459.541	!	1
+gamma_3_f#1[#1]		8.13776	!	1
+A_4_f#1[#1]		459.541	!	1
+gamma_4_f#1[#1]		8.13776	!	1
+# The following contains a more human-readable listing of the parameters that is NEVER READ by QSoas
+# Global parameters: 
+
+# x_1_f#1	=	1355	+- 0	+-0%
+# x_2_f#1	=	1362	+- 0	+-0%
+# x_3_f#1	=	1372	+- 0	+-0%
+# x_4_f#1	=	1377	+- 0	+-0%
+# 
+# 
+# Buffer-local parameters: 
+# 
+# Buffer: file5.txt (weight: 1)
+# a	=	0	+- 0	+- nan%
+# b	=	0.7	+- 0	+- 0%
+# Y0_f#1	=	646.487	+- 0	+- 0%
+# A_1_f#1	=	651.683	+- 0	+- 0%
+# gamma_1_f#1	=	8.11906	+- 0	+- 0%
+# A_2_f#1	=	651.683	+- 0	+- 0%
+# gamma_2_f#1	=	8.11906	+- 0	+- 0%
+# A_3_f#1	=	651.683	+- 0	+- 0%
+# gamma_3_f#1	=	8.11906	+- 0	+- 0%
+# A_4_f#1	=	651.683	+- 0	+- 0%
+# gamma_4_f#1	=	8.11906	+- 0	+- 0%
+# Buffer: file4.txt (weight: 1)
+# a	=	0	+- 0	+- nan%
+# b	=	0.5	+- 0	+- 0%
+# Y0_f#1	=	487.959	+- 0	+- 0%
+# A_1_f#1	=	459.541	+- 0	+- 0%
+# gamma_1_f#1	=	8.13776	+- 0	+- 0%
+# A_2_f#1	=	459.541	+- 0	+- 0%
+# gamma_2_f#1	=	8.13776	+- 0	+- 0%
+# A_3_f#1	=	459.541	+- 0	+- 0%
+# gamma_3_f#1	=	8.13776	+- 0	+- 0%
+# A_4_f#1	=	459.541	+- 0	+- 0%
+# gamma_4_f#1	=	8.13776	+- 0	+- 0%

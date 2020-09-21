@@ -1,0 +1,21 @@
+# The following information are comments, but Soas may make use of those if they are present
+# Fit used: exponential-decay (1 exp, absolute, no loss, no slow phase)
+# Buffer #0 : file6.dat
+x0	0	!	0
+A_inf	=A_0*k_a/(k_a + k_i)	!	0
+tau_1	=1/(k_i + k_a)	!	0
+A_1	=A_0*k_i/(k_a + k_i)	!	0
+A_0	1e-06	!	1
+k_i	1	!	1
+k_a	1	!	1
+# The following contains a more human-readable listing of the parameters that is NEVER READ by QSoas
+# Buffer-local parameters: 
+# 
+# Buffer: file6.dat (weight: 1)
+# x0	=	0	(fixed)
+# A_inf	=	5e-07	(fixed)
+# tau_1	=	0.5	(fixed)
+# A_1	=	5e-07	(fixed)
+# A_0	=	1e-06	+- 0	+- 0%
+# k_i	=	1	+- 0	+- 0%
+# k_a	=	1	+- 0	+- 0%

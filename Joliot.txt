@@ -1,0 +1,2 @@
+A -> C [k_fast]
+B -> C [k_slow]

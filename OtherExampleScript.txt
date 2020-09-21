@@ -1,0 +1,4 @@
+load ${1}
+splita
+auto-filter-fft /cutoff=23 /derive=1
+mark

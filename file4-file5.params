@@ -1,0 +1,51 @@
+# The following information are comments, but Soas may make use of those if they are present
+# Fit used: lorentzian (4 species, amplitude)
+# Buffer #0 : file5.txt
+# Buffer #1 : file4.txt
+x_1	1355	!	1
+gamma_1	8.11906	!	1	!	log
+x_2	1362	!	1
+gamma_2	8.11906	!	1	!	log
+x_3	1372	!	1
+gamma_3	8.11906	!	1	!	log
+x_4	1377.5	!	1
+gamma_4	8.11906	!	1	!	log
+buffer_weight[#0]	1
+Y0[#0]		646.487	!	1
+A_1[#0]		651.683	!	1	!	log
+A_2[#0]		651.683	!	1	!	log
+A_3[#0]		651.683	!	1	!	log
+A_4[#0]		651.683	!	1	!	log
+buffer_weight[#1]	1
+Y0[#1]		487.959	!	1
+A_1[#1]		459.541	!	1	!	log
+A_2[#1]		459.541	!	1	!	log
+A_3[#1]		459.541	!	1	!	log
+A_4[#1]		459.541	!	1	!	log
+# The following contains a more human-readable listing of the parameters that is NEVER READ by QSoas
+# Global parameters: 
+
+# x_1	=	1355	+- 0	+-0%
+# gamma_1	=	8.11906	+- 0	+-0%
+# x_2	=	1362	+- 0	+-0%
+# gamma_2	=	8.11906	+- 0	+-0%
+# x_3	=	1372	+- 0	+-0%
+# gamma_3	=	8.11906	+- 0	+-0%
+# x_4	=	1377.5	+- 0	+-0%
+# gamma_4	=	8.11906	+- 0	+-0%
+# 
+# 
+# Buffer-local parameters: 
+# 
+# Buffer: file5.txt (weight: 1)
+# Y0	=	646.487	+- 0	+- 0%
+# A_1	=	651.683	+- 0	+- 0%
+# A_2	=	651.683	+- 0	+- 0%
+# A_3	=	651.683	+- 0	+- 0%
+# A_4	=	651.683	+- 0	+- 0%
+# Buffer: file4.txt (weight: 1)
+# Y0	=	487.959	+- 0	+- 0%
+# A_1	=	459.541	+- 0	+- 0%
+# A_2	=	459.541	+- 0	+- 0%
+# A_3	=	459.541	+- 0	+- 0%
+# A_4	=	459.541	+- 0	+- 0%

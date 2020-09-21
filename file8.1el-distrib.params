@@ -1,0 +1,21 @@
+# The following information are comments, but Soas may make use of those if they are present
+# Fit used: 1el-distrib (1el (formula: imax/(1 + k2_ov_k0 * exp(fara * 0.5*(x - e0)) + exp(fara * (x - e0)))) with k0 k2_ov_k0)
+# Buffer #0 : file7.dat
+temperature	298	!	0
+imax	1	!	1
+e0	-0.2	!	1
+k2_ov_k0_max	10	!	1
+k2_ov_k0_betadmax	10	!	1
+# The following contains a more human-readable listing of the parameters that is NEVER READ by QSoas
+# Global parameters: 
+
+# temperature	=	298	(fixed)
+# imax	=	1	+- 0.0052	+-0.52%
+# e0	=	-0.2	+- 0.0013	+-0.65%
+# 
+# 
+# Buffer-local parameters: 
+# 
+# Buffer: file7.dat (weight: 1)
+# k2_ov_k0_max	=	10	+- 29	+- 2.9e+02%
+# k2_ov_k0_betadmax	=	10	+- 1	+- 10%

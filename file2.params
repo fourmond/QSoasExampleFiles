@@ -1,0 +1,13 @@
+# The following information are comments, but Soas may make use of those if they are present
+# Fit used: arb (formula: a/(1+exp(96500/8.3/temperature*(x-e0))))
+# Buffer #0 : file2.dat
+temperature	298	!	0
+a	1	!	1
+e0	0.3	!	1
+# The following contains a more human-readable listing of the parameters that is NEVER READ by QSoas
+# Buffer-local parameters: 
+# 
+# Buffer: file2.dat (weight: 1)
+# temperature	=	298	(fixed)
+# a	=	1	+- 0.018	+- 1.8%
+# e0	=	0.3	+- 0.0015	+- 0.49%

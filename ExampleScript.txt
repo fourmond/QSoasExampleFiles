@@ -1,0 +1,5 @@
+# this is a line of comment in an example script
+load file2.dat 
+auto-filter-fft /cutoff=23 /derive=1
+ruby-run exampleRubyFunctions.rb
+mfit-arb sigmoid(a,temperature,x,e0)|sigmoidderivative(a,temperature,x,e0) 1 0 /parameters=file2.param

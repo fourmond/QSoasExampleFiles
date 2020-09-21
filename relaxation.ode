@@ -1,0 +1,6 @@
+c_A = c_A0
+c_I = 0
+
+d_c_A = k_a * c_I - k_i * c_A
+d_c_I = - d_c_A
+

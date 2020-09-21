@@ -1,0 +1,9 @@
+# this is a line of comment in an example script
+load file4.txt
+load file5.txt
+mfit-lorentzian 0 1 /number=4 /parameters=file4-file5.params
+
+## the following command can only be run once
+#combine-fits lorentz_plus_baseline 'a*x+b + y1' lorentzian
+## run the fit
+#mfit-lorentz_plus_baseline 0 1 /number=4 /parameters=LorentzScript.params
