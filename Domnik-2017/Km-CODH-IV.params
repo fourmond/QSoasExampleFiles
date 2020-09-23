@@ -1,0 +1,20 @@
+# The following information are comments, but Soas may make use of those if they are present
+# Fit used: arb (formula: im/(1+km/s))
+# Command-line: fit-arb im/(1+km/s) /with=s:1,exp
+im	1e-07	!	1
+km	0.1	!	1
+s_1	50	!	0
+s_t_1	601	!	0
+s_tau_1	25	!	1
+buffer_weight[#0]	1
+buffer_name[#0]	Km-CODH-IV_spikes.dat
+# The following contains a more human-readable listing of the parameters that is NEVER READ by QSoas
+# Final residuals: 1.65527e-08
+# Buffer-local parameters: 
+# 
+# Buffer: Km-CODH-IV_spikes.dat (weight: 1)
+# im	=	1e-07	+- 1.8e-10	+- 0.18%
+# km	=	0.1	+- 0.00046	+- 0.46%
+# s_1	=	50	(fixed)
+# s_t_1	=	601	(fixed)
+# s_tau_1	=	25	+- 0.16	+- 0.63%
