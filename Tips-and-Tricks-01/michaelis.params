@@ -1,0 +1,14 @@
+# The following information are comments, but Soas may make use of those if they are present
+# Fit used: arb (formula: vm/(1+km/x))
+# Command-line: fit-arb vm/(1+km/x)
+km	3.69767	!	1
+vm	3.51742	!	1
+buffer_weight[#0]	1
+buffer_name[#0]	michaelis.dat
+# The following contains a more human-readable listing of the parameters that is NEVER READ by QSoas
+# Final residuals: 0.0648014
+# Buffer-local parameters: 
+# 
+# Buffer: michaelis.dat (weight: 1)
+# km	=	3.69767	+- 1.2	+- 33%
+# vm	=	3.51742	+- 0.32	+- 9.2%
