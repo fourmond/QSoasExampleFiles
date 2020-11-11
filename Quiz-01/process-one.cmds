@@ -1,0 +1,3 @@
+apply-formula "if i == 0; then y=$stats.y_average; end; if i == 1; then y=$stats.y_stddev; end"
+strip-if i>1
+flag /flags=processed

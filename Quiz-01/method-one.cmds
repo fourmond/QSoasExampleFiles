@@ -1,0 +1,4 @@
+run-for-each load-one.cmds Spectrum-*.dat
+average flagged:processed
+apply-formula y2=(y2-y**2)**0.5
+dataset-options /yerrors=y2

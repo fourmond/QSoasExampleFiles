@@ -1,0 +1,3 @@
+load ${1}
+apply-formula y2=y**2 /extra-columns=1
+flag /flags=processed

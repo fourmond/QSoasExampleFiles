@@ -1,0 +1,8 @@
+load Spectrum-*.dat /flags=spectra
+contract flagged:spectra
+transpose
+expand /flags=tmp
+run-for-datasets process-one.cmds flagged:tmp
+contract flagged:processed
+transpose
+dataset-options /yerrors=y2
