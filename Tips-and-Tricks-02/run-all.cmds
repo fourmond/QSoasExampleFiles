@@ -1,0 +1,5 @@
+output peaks.dat /overwrite=true /meta=a
+run-for-each do-one.cmds /range-type=lin 0.5..5:80
+V all /style=red-to-blue
+# To load the peaks file, try:
+# load peaks.dat /columns=10,3
