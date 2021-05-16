@@ -23,6 +23,11 @@ data as was done in the original publications.
    in which they are used to determine the Michaelis Menten of a CO
    dehydrogenas. The data analysis is described in
    [this post](https://vince-debian.blogspot.com/2020/09/tutorial-analyze-km-data-of-codhs.html).
+ * The data present in the `Jacques-2014` directory were initially
+   acquired for the publication
+   [Jacques et al, *BBA*, **2014**](http://dx.doi.org/10.1016/j.bbabio.2014.05.357).
+   How to analyze them is described in
+   [this post](https://vince-debian.blogspot.com/2021/05/tutorial-analyze-redox.html).
 
 ## Tips and tricks
 
