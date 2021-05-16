@@ -1,0 +1,66 @@
+# The following information are comments, but Soas may make use of those if they are present
+# Fit used: linear-kinetic-system
+# Command-line: fit-linear-kinetic-system /species=2 /steps=0,1,2,1,0
+I_1_#0	-1.42822e-07	!	1
+I_2_#0	0	!	0
+k_1_1_#0	0	!	0
+k_1_2_#0	0.01	!	1
+k_2_1_#0	0.015	!	1
+k_2_2_#0	0	!	0
+k_loss_#0	0.0001	!	1
+I_1_#1	-1.42822e-07	!	1
+I_2_#1	0	!	0
+k_1_1_#1	0	!	0
+k_1_2_#1	0.015	!	1
+k_2_1_#1	0.03	!	1
+k_2_2_#1	0	!	0
+k_loss_#1	0.0001	!	1
+I_1_#2	-1.42822e-07	!	1
+I_2_#2	0	!	0
+k_1_1_#2	0	!	0
+k_1_2_#2	0.02	!	1
+k_2_1_#2	0.045	!	1
+k_2_2_#2	0	!	0
+k_loss_#2	0.0001	!	1
+alpha_1_0	1	!	0
+alpha_2_0	0	!	0
+xstart_a	0	!	0
+xstart_b	60	!	0
+xstart_c	120	!	0
+xstart_d	210	!	0
+xstart_e	270	!	0
+buffer_weight[#0]	1
+buffer_name[#0]	27-27-blanc_trimmed.dat
+# The following contains a more human-readable listing of the parameters that is NEVER READ by QSoas
+# Final residuals: 2.5345e-07
+# Buffer-local parameters: 
+# 
+# Buffer: 27-27-blanc_trimmed.dat (weight: 1)
+# I_1_#0	=	-1.42822e-07	+- 0	+- 0%
+# I_2_#0	=	0	(fixed)
+# k_1_1_#0	=	0	(fixed)
+# k_1_2_#0	=	0.01	+- 0	+- 0%
+# k_2_1_#0	=	0.015	+- 0	+- 0%
+# k_2_2_#0	=	0	(fixed)
+# k_loss_#0	=	0.0001	+- 0	+- 0%
+# I_1_#1	=	-1.42822e-07	+- 0	+- 0%
+# I_2_#1	=	0	(fixed)
+# k_1_1_#1	=	0	(fixed)
+# k_1_2_#1	=	0.015	+- 0	+- 0%
+# k_2_1_#1	=	0.03	+- 0	+- 0%
+# k_2_2_#1	=	0	(fixed)
+# k_loss_#1	=	0.0001	+- 0	+- 0%
+# I_1_#2	=	-1.42822e-07	+- 0	+- 0%
+# I_2_#2	=	0	(fixed)
+# k_1_1_#2	=	0	(fixed)
+# k_1_2_#2	=	0.02	+- 0	+- 0%
+# k_2_1_#2	=	0.045	+- 0	+- 0%
+# k_2_2_#2	=	0	(fixed)
+# k_loss_#2	=	0.0001	+- 0	+- 0%
+# alpha_1_0	=	1	(fixed)
+# alpha_2_0	=	0	(fixed)
+# xstart_a	=	0	(fixed)
+# xstart_b	=	60	(fixed)
+# xstart_c	=	120	(fixed)
+# xstart_d	=	210	(fixed)
+# xstart_e	=	270	(fixed)
