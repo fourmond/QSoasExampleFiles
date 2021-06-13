@@ -1,0 +1,7 @@
+l kcat-vs-ph.dat
+split-on-values pH x /flags=data
+output result.dat /overwrite=true
+run-for-datasets process-one.cmds flagged:data
+l result.dat
+apply-formula tmp=y2;y2=y;y=x;x=tmp
+dataset-options /yerrors=y2

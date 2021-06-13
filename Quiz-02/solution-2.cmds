@@ -1,0 +1,6 @@
+l kcat-vs-ph.dat
+split-on-values pH x /flags=data
+stats /meta=pH /accumulate=* /stats=x_average,x_stddev /buffers=flagged:data
+pop
+apply-formula tmp=y2;y2=y;y=x;x=tmp
+dataset-options /yerrors=y2
